@@ -11,6 +11,7 @@ library("dplyr")
 ?diamonds
 colnames(diamonds)
 nrow(diamonds)
+View(diamonds)
 
 # This data set has a lot of rows. To make things a bit more readable, 
 # use dplyr's `sample_n()` function to get a random 1000 rows from the data set
